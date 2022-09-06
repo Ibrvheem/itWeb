@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav id="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="">
+                </div>
+                <div id = "menu">
+                    <ul id = "list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Academy</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger">
+                    <img src="hamburger.png" alt="" class = "icon" onClick="myFunction()"> 
+                    <!-- <div class = "hammenu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Academy</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>       -->
+                </div>
+            </nav>
+        </header>   
+        <section class="home">
+            <div class="introduction">
+                <p id = "clr">A Mr.Teey investment Ltd. Company</p>
+                <h1>Some kind of headline for user to read.</h1>
+                <h4>We specialise in delivering end-to-end services and mobile & web applications to innovative companies around the world.</h4>
+                <div class="button">
+                    <a href="#">Let's Build</a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="Group7.png" alt="">
+            </div>
+        </section> 
+       <section class="explore">
+            <h1>Explore what we offer</h1>
+       </section>
+    </div>
+    <div class="box" >
+        <div id="item" onmouseover="mouseInOne()" onmouseout="mouseOutOne()">
+            <div id="imgbg">
+                <img src="Vector.png" alt="" id = "myImg">
+            </div>
+            <h2>Ideation & Strategy</h2>
+            <p>We offer experience in building a new product</p>
+        </div>
+        <div id="item2" onmouseover="mouseInTwo()" onmouseout="mouseOutTwo()">
+            <div id="imgbg2">
+                <img src="Vector.png" alt="" id = "myImg2">
+            </div>
+            <h2>Product Design</h2>
+            <p>We will create a beatiful and working design for your idea</p>
+        </div>
+        <div id="item3" onmouseover="mouseInThree()" onmouseout="mouseOutThree()">
+            <div id="imgbg3">
+                <img src="Vector.png" alt="" id = "myImg3">
+            </div>
+            <h2>Mobile & Web Development</h2>
+            <p>We specialise in delivering end-to-end services</p>
+        </div>
+        <div id="item4" onmouseover="mouseInFour()" onmouseout="mouseOutFour()">
+            <div id="imgbg4">
+                <img src="Vector.png" alt="" id = "myImg4">
+            </div>
+            <h2>Low-code Development</h2>
+            <p>We will implement your idea based on low-code tech</p>
+        </div>
+
+
+    </div>
+    <div class="container">
+        <div class="industry">
+            <h1>Our industry Specialization</h1>
+            <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+        </div>
+        <div class="startups">
+            <img src="Group16.png" alt="">
+        </div>
+        <div class="blank">
+
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="contactus">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="#">Phone_number</a></li>
+                    <li><a href="#">Email_address</a></li>
+                    <li><a href="#">Facebook_account</a></li>
+                    <li><a href="#">Twitter_handle</a></li>
+                    <li><a href="#">LinkedIn_account</a></li>
+                </ul>
+            </div>
+            <div class="customerservice">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="location">
+                <h4>Location</h4>
+                <ul>
+                    <li><a href="#">44a Isa Kaita Road, Ungwan Sarki Musulumi, Kaduna, Nigeria</a></li>
+                    <li class="map">
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.391618242938!2d7.453463214578715!3d10.54849626624436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11b2b5fd7dc41cfb%3A0x4ef182d427c6f75f!2sIT%20Central!5e0!3m2!1sen!2sng!4v1655721824032!5m2!1sen!2sng" width="465" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         </li>
+                </ul>
+            </div>
+            
+
+        </div>
+        <div class="container">
+            <div class="copywrite">
+                <div class="footering">
+                    <img src="logo2.png" alt="">
+                </div>
+                <div class="license">
+                    <p>Copyrights © All rights reserved by <span>iT Central</span></p>
+                </div>
+                
+            </div>
+        </div>
+
+        
+    
+    </footer>
+
+
+    <script src="index.js"></script>   
+</body>
+</html>

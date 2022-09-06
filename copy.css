@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0px 115px;  
+}
+.navbar{
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    /* background-color: yellow; */
+    margin-bottom: 20px;
+}
+#menu ul li{
+    display: inline;
+    margin-left: 41px;
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+section.home{
+    height: 568px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+
+
+}
+.introduction{
+    margin-right: 88px;
+}
+
+.introduction h4{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight:400;
+    color: #0070C0;
+}
+.introduction h1{
+    font-size: 35px;
+    line-height: 52.5px;
+    font-weight:700;
+    color: #000;
+    height: 106px;
+    width: 568px;
+    margin-bottom: 36px;
+}
+.introduction p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight:400;
+    color: #000;
+    height: 72px;
+    width: 448px;
+    margin-bottom: 36px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0070C0;
+    background-color: #0070C0;
+    border-radius: 4px;
+    height: 39px;
+    width: 200px;
+}
+.button a{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    color: white;
+
+}
+section .explore{
+    height: 314px;
+}
+section.explore h1{
+    font-size: 25px;
+    width: 171px;
+    height: 76px;
+    margin-bottom: 42px;
+}
+.box{
+    display: flex;
+    margin-bottom: 22px;
+}
+.box .item{
+    height: 250px;
+    width: 250px;
+    /* background-color: red; */
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 22px;
+
+    
+}
+.box .item:hover{
+    box-shadow: 0px 0px 45px -6px #00000021;
+    
+}
+.box .item h2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    height: 54px;
+    width: 140px;
+    margin-bottom: 5px;
+
+}
+.imgbg{
+    border: 1px solid #0070C00D;
+    height: 70px;
+    width: 70px;
+    background-color: #0070C00D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.specialization{
+    height: 1189px;
+}
+.headerwriting{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 144.75px;
+
+}
+.specialization h1{
+    width: 182px;
+    height: 76px;
+    font-size: 25px;
+    line-height: 37.5px;
+    font-weight: 700;
+}
+.specialization p{
+    font-size: 14px;
+    font-weight:400 ;
+    line-break: 21px;
+    width: 852px;
+    height: 66px;
+}
+.startup{
+    margin-bottom: 200px;
+}
+.startup img{
+    width: 100%;
+
+}
+.blank{
+    height: 250px;
+    width: 100%;
+    background-color: #0070C0;
+    border-radius: 20px;
+    margin-bottom: 200px;
+}
+footer{
+    height: 500px;
+    background-color: #D9D9D9;
+    padding-top: 48px;
+    width: 100%;
+}
+footer .container{
+    display: flex;
+    
+}
+footer h4{
+    margin-bottom: 43px;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 27px;
+    color: #0070C0;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    line-height: 19.5px;
+    margin-bottom: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #000000;
+
+}
+.contactus{
+    margin-right: 211px;
+}
+.customerservice{
+    margin-right: 150px;
+
+
+}
+.location li{
+    height: 40px;
+    width: 328px;
+    font-size: 13px;
+}
+li.map{
+    width: 600px;
+    height: 180px;
+    border-radius:20px;
+    background-color: #0070C0;
+    margin-bottom: 94px;
+}
+.copywrite{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    
+}
+p span{
+    color: #0070C0;
+}
