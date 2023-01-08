@@ -94,10 +94,6 @@ section.explore h1{
     line-height: 37.5px;
     margin-bottom: 42px;
 }
-.explore{
-    overflow: scroll
-
-}
 .box{
     /* width: 100%; */
     display: flex;
